@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.js.map
+*.d.ts
+outputs/
+__pycache__/
+*.py[cod]
+.DS_Store
+.vscode/
+.idea/
