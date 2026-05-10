@@ -13,6 +13,9 @@
     "coaching": "node dist/src/coaching.js",
     "bot": "node dist/src/bot/demo.js",
     "dashboard": "npx vite --port 8501",
+    "web:dev": "cd apps/web && npx vite --port 8502",
+    "web:build": "cd apps/web && npx vite build",
+    "data:download": "uv run --with fastf1 --with pandas scripts/download_fastf1_data.py",
     "smoke": "node dist/scripts/smoke_test.js",
     "ts-node": "npx tsx"
   },

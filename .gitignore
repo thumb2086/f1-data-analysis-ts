@@ -5,6 +5,8 @@ dist/
 outputs/
 __pycache__/
 *.py[cod]
+.venv/
+.fastf1-cache/
 .DS_Store
 .vscode/
 .idea/
